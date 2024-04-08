@@ -37,6 +37,7 @@
   flex-direction: column;
   align-items: flex-start;
 }
+
 h2 {
   color: rgba(49, 144, 189, 0.9);
   font-family: 'Gotham-normal';
@@ -82,7 +83,9 @@ h1 {
   margin-bottom: 22px;
   max-width: 571px;
 }
+
 .main_button_accent {
+  position: relative;
   width: 320px;
   padding-top: 12px;
   padding-bottom: 12px;
@@ -94,9 +97,28 @@ h1 {
   font-weight: 500;
   line-height: 140%;
   border-radius: 8px;
-  background: linear-gradient(233deg, #bc6cac 2.99%, #814099 118.71%);
   text-decoration: none;
+
+  background-size: 300% 100%;
+  moz-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+
+  border-radius: 8px;
+  /* background-image: linear-gradient(233deg, #bc6cac 2.99%, #814099 60%, #bc6cac 127.42%); */
+  background-image: linear-gradient(233deg, #814099 2.99%, #bc6cac 60%, #814099 127.42%);
+  border-radius: 8px;
 }
+
+.main_button_accent:hover {
+  background-position: 100% 0;
+  moz-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
 .main_picture_image_wrapper {
   display: flex;
   align-items: center;

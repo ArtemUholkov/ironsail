@@ -91,7 +91,7 @@ header {
   font-style: normal;
   font-weight: 500;
   line-height: 160%;
-  transition: 0.5s;
+  transition: 0.2s;
   cursor: pointer;
   padding: 10px;
 }
@@ -109,7 +109,7 @@ header {
 }
 .nav_elem:hover {
   color: #814099;
-  transition: 0.5s;
+  transition: 0.2s;
   transform: scale(1.01);
 }
 
