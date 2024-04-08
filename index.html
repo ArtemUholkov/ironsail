@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Slider-swiper -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <!-- Slider-swiper -->
+    <title>Ironsail</title>
+    <link rel="icon" href="img/global/favicon.webp" />
+    <link rel="stylesheet" href="css/index.css" />
+  </head>
+  <body>
+    <header>
+      <div class="header_wrapper mycontainer">
+        <div class="header_logo_wrapper">
+          <img src="img/global/logo.svg" alt="logo" class="header_logo" />
+        </div>
+        <nav class="navbar">
+          <ul class="navbar_menu">
+            <img src="img/global/logo.svg" alt="logo" class="header_logo_tablet_mob" />
+            <li><p class="active_nav_elem">Home</p></li>
+            <li>
+              <p class="nav_elem" href="#" onclick="">Pharmacy Accounts</p>
+            </li>
+            <li>
+              <p class="nav_elem" href="#" onclick="">Digital Marketing</p>
+            </li>
+            <li>
+              <p class="nav_elem" href="#" onclick="">Influencer Marketing</p>
+            </li>
+            <li>
+              <p class="nav_elem" href="#" onclick="">About Us</p>
+            </li>
+
+            <div class="header_button_pair">
+              <a class="main_button">Get in touch</a>
+            </div>
+            <div class="burger">
+              <div class="burger_space" id="burger">
+                <span class="stick"></span>
+                <span class="stick"></span>
+                <span class="stick"></span>
+              </div>
+            </div>
+          </ul>
+        </nav>
+        <div class="popup" id="popup">
+          <div class="popup_textblock" id="popupSlide">
+            <ul class="navbar_menu_mobile">
+              <li><p class="nav_elem_mobile_active" href="">Home</p></li>
+              <li>
+                <p class="nav_elem_mobile" href="">Pharmacy Accounts</p>
+              </li>
+              <li>
+                <p class="nav_elem_mobile" href="">Digital Marketing</p>
+              </li>
+              <li>
+                <p class="nav_elem_mobile" href="">Influencer Marketing</p>
+              </li>
+              <li><p class="nav_elem_mobile" href="">About Us</p></li>
+              <div class="header_button_pair mobile_header_button_pair">
+                <a class="main_button main_button_mobile">Get in touch</a>
+              </div>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </header>
+    <section class="main_picture">
+      <div class="main_picture_wrapper">
+        <div class="main_picture_content">
+          <div class="main_picture_content_text">
+            <h2>What we do</h2>
+            <h1>
+              Professional services for
+              <span class="hightlight_text">health & wellness providers</span>
+            </h1>
+            <img src="img/main/doctormain.webp" alt="doctor" class="main_picture_image_mobile" />
+            <div class="wrap_text-Title">
+              <p class="text_title">Solutions to optimize your business</p>
+            </div>
+            <p class="text_text">
+              IRONSAIL gives you access to our network of exclusive pharmacy accounts, and helps to
+              optimize your pharmaceutical services to best serve your patients, and improve your
+              internal workflow.
+            </p>
+            <a href="#" class="main_button_accent">Create account</a>
+          </div>
+          <div class="main_picture_image_wrapper">
+            <img src="img/main/doctormain.webp" alt="doctor" class="main_picture_image" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="js/script.js"></script>
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <!-- Swiper JS -->
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper('.mySwiper', {
+        navigation: {
+          nextEl: '.swiper-button-next',
+          prevEl: '.swiper-button-prev',
+        },
+        loop: true,
+        autoplay: {
+          delay: 3000,
+        },
+      });
+    </script>
+    <!-- Initialize Swiper -->
+  </body>
+</html>
