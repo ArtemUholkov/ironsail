@@ -70,3 +70,20 @@ function copyText(elem) {
     }
   }
 }
+
+const leftarrow = document.querySelector('.swiper-button-prev');
+const rightarrow = document.querySelector('.swiper-button-next');
+
+leftarrow.addEventListener('mouseover', () => {
+  leftarrow.children[0].src = 'img/testimonials/left.svg';
+});
+leftarrow.addEventListener('mouseout', () => {
+  leftarrow.children[0].src = 'img/testimonials/prev.svg';
+});
+
+rightarrow.addEventListener('mouseover', () => {
+  rightarrow.children[0].src = 'img/testimonials/right.svg';
+});
+rightarrow.addEventListener('mouseout', () => {
+  rightarrow.children[0].src = 'img/testimonials/next.svg';
+});
