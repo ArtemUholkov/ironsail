@@ -123,9 +123,6 @@ header {
   transition: all 0.5s;
 }
 .header_button_pair:hover {
-  border: 1.5px solid #814099;
-  transition: all 0.5s;
-  transform: scale(1.01);
 }
 .main_button {
   padding: 12px 32px;
@@ -133,7 +130,7 @@ header {
   border-radius: 8px;
   border: 1.5px solid #141751;
   cursor: pointer;
-  transition: all 0.5s;
+  transition: all 0.3s;
   font-family: 'Gotham-normal';
   font-size: 18px;
   font-style: normal;
@@ -141,10 +138,10 @@ header {
   line-height: 140%;
 }
 .main_button:hover {
-  color: #814099;
-  transition: all 0.5s;
-  border: 1.5px solid #814099;
-  transform: scale(1.01);
+  border: 1.5px solid var(--blue, #141751);
+  background: rgba(153, 194, 255, 0.55);
+
+  transition: all 0.3s;
 }
 .fill_button {
   border-color: var(--usual-decorations);
