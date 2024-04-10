@@ -402,8 +402,11 @@ input::placeholder {
   }
   .ph_form_right_ab_block {
     position: absolute;
-    bottom: 0;
-    right: 20px;
+    bottom: -100px;
+    right: -50px;
+    width: 185px;
+    height: 225.555px;
+    z-index: -1;
   }
   .ph_form_title {
     font-size: 32px;
