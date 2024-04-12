@@ -596,6 +596,21 @@ body {
   padding-right: 20px;
 
   padding-bottom: 100px;
+  position: relative;
+}
+.im_hiw_right_ab_image {
+  position: absolute;
+  right: 0;
+  bottom: -150px;
+}
+@media (max-width: 1260px) {
+  .im_hiw_right_ab_image {
+    width: 178.898px;
+    height: 239.537px;
+    position: absolute;
+    right: -50px;
+    bottom: -100px;
+  }
 }
 .im_hiw_wrapper {
   max-width: 610px;
@@ -708,4 +723,211 @@ body {
   font-weight: 400;
   line-height: 160%;
   max-width: 392px;
+}
+@media (max-width: 630px) {
+  .im_how_title {
+    max-width: 72px;
+    margin-bottom: 20px;
+  }
+  .im_hiw_title {
+    font-size: 32px;
+    margin-bottom: 32px;
+  }
+  .im_hiw_items_wrapper {
+    flex-direction: column;
+    gap: 50px;
+  }
+  .im_hiw_item {
+    flex-direction: column;
+    gap: 12px;
+    align-items: center;
+    justify-content: center;
+  }
+  .im_hiw_item_title {
+    font-size: 18px;
+    margin-bottom: 16px;
+    text-align: center;
+    max-width: 100%;
+  }
+  .im_hiw_item_text {
+    font-size: 16px;
+    text-align: center;
+    max-width: 280px;
+  }
+  .im_hiw_item_texts_wrapper {
+    gap: 0;
+  }
+  .im_hiw_number {
+    top: -95px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    font-size: 32px;
+  }
+  .im_hiw_number_sec {
+    top: -100px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    font-size: 32px;
+  }
+  .im_hiw_number_trd {
+    top: -100px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    font-size: 32px;
+  }
+  .im_hiw_number_fth {
+    top: -100px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    font-size: 32px;
+  }
+}
+
+/* IM INFLUENCER MARKETING */
+
+.im_im {
+  width: 100%;
+  padding-bottom: 100px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.im_im_wrapper {
+  max-width: 990px;
+  margin: 0 auto;
+}
+.im_im_titles_wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 32px;
+}
+.im_im_titles_subtitle {
+  width: 170px;
+}
+.im_im_titles_title {
+  color: #141751;
+  text-align: center;
+  font-family: 'Gotham-normal';
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 120%;
+  max-width: 822px;
+  margin-bottom: 18px;
+}
+.im_im_titles_text {
+  color: #141751;
+  text-align: center;
+  font-family: 'Gotham-normal';
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+}
+.im_im_items_wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 62px;
+}
+.im_im_item {
+  padding: 38px 46px;
+  border-radius: 30px;
+  border: 1px solid #f3f3f3;
+
+  background: var(
+    --Glass-2,
+    radial-gradient(
+      37.42% 68.86% at 10.03% 4.88%,
+      rgba(255, 255, 255, 0.4) 0%,
+      rgba(255, 255, 255, 0) 100%
+    ),
+    rgba(255, 251, 251, 0.3)
+  );
+  /* glass */
+  box-shadow: 0px 0.712px 4.275px 0px rgba(255, 255, 255, 0.35) inset,
+    -0.712px 0.712px 0.712px 0px rgba(255, 255, 255, 0.35) inset,
+    0px 12.825px 16.388px 0px rgba(0, 0, 0, 0.05);
+  backdrop-filter: blur(28.5px);
+  display: flex;
+  flex-direction: row;
+  gap: 28px;
+  align-items: center;
+  justify-content: center;
+}
+.im_im_item_image {
+  width: 80px;
+  height: 80px;
+}
+.im_im_item_texts {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.im_im_item_texts_title {
+  color: #141751;
+  font-family: 'Gotham-normal';
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 120%;
+  text-align: center;
+}
+.im_im_item_texts_text {
+  color: #141751;
+  text-align: center;
+  font-family: 'Gotham-normal';
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+  max-width: 257px;
+  margin-bottom: 12px;
+}
+.im_im_button {
+  max-width: 280px;
+}
+@media (max-width: 1080px) {
+  .im_im_items_wrapper {
+    flex-direction: column;
+  }
+}
+@media (max-width: 678px) {
+  .im_im_titles_subtitle {
+    max-width: 124px;
+  }
+  .im_im_titles_title {
+    font-size: 32px;
+    max-width: 300px;
+  }
+  .im_im_titles_text {
+    font-size: 16px;
+  }
+  .im_im_item_image {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 22px;
+  }
+  .im_im_item_texts_title {
+    font-size: 18px;
+  }
+  .im_im_item_texts_text {
+    font-size: 16px;
+  }
+  .im_im_button {
+    font-size: 18px;
+    max-width: 280px;
+  }
+  .im_im_item {
+    flex-direction: column;
+    padding: 32px 20px;
+    gap: 0;
+  }
 }
