@@ -7,6 +7,9 @@
   line-height: 160%;
   max-width: 532px;
 }
+.as_mob_img {
+  position: relative;
+}
 @media (max-width: 1005px) {
   .as_main_left_block {
     position: absolute;
