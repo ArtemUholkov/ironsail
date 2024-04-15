@@ -98,8 +98,8 @@
   gap: 5px;
 }
 .swiper_star_img {
-  width: 34px;
-  height: 34px;
+  width: 34px !important;
+  height: 34px !important;
 }
 .swiper_short_info {
   color: #fff;
@@ -137,8 +137,8 @@
     font-size: 100px;
   }
   .swiper_star_img {
-    width: 20px;
-    height: 20px;
+    width: 20px !important;
+    height: 20px !important;
   }
   .swiper_short_info {
     font-size: 16px;

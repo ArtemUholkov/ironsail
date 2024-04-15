@@ -151,6 +151,10 @@ body {
   gap: 30px;
 }
 .catalog_item {
+  position: relative;
+  z-index: 10;
+  display: block;
+  background: transparent;
   border-radius: 30px;
   border: 1px solid #f3f3f3;
 
@@ -174,6 +178,92 @@ body {
   align-items: center;
   justify-content: center;
   gap: 32px;
+}
+
+.catalog_item:before {
+  background: var(
+    --Glass-2,
+    radial-gradient(
+      37.42% 68.86% at 10.03% 4.88%,
+      rgba(255, 255, 255, 0.4) 0%,
+      rgba(255, 255, 255, 0) 100%
+    ),
+    rgba(255, 251, 251, 0.3)
+  );
+  content: '';
+  position: absolute;
+  transition: opacity 0.35s ease-in-out;
+  -moz-transition: opacity 0.35s ease-in-out;
+  -webkit-transition: opacity 0.35s ease-in-out;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+  background: -moz-radial-gradient(
+      37.42% 68.86% at 10.03% 4.88%,
+      rgba(255, 255, 255, 0.4) 0%,
+      rgba(255, 255, 255, 0) 100%
+    ),
+    rgba(255, 251, 251, 0.3); /* FF3.6-15 */
+  background: -webkit-radial-gradient(
+      37.42% 68.86% at 10.03% 4.88%,
+      rgba(255, 255, 255, 0.4) 0%,
+      rgba(255, 255, 255, 0) 100%
+    ),
+    rgba(255, 251, 251, 0.3); /* Chrome10-25,Safari5.1-6 */
+  background: radial-gradient(
+      37.42% 68.86% at 10.03% 4.88%,
+      rgba(255, 255, 255, 0.4) 0%,
+      rgba(255, 255, 255, 0) 100%
+    ),
+    rgba(255, 251, 251, 0.3); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+.catalog_item:hover:before {
+  opacity: 0;
+}
+.catalog_item:after {
+  background: radial-gradient(
+      107.93% 122.93% at 53.79% 6.22%,
+      #fff 0%,
+      rgba(163, 205, 225, 0.56) 67%,
+      rgba(49, 144, 189, 0) 100%
+    ),
+    rgba(255, 251, 251, 0.3);
+  border-radius: 30px;
+
+  content: '';
+  opacity: 0;
+  transition: opacity 0.35s ease-in-out;
+  -moz-transition: opacity 0.35s ease-in-out;
+  -webkit-transition: opacity 0.35s ease-in-out;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+  background: -moz-radial-gradient(
+    96.95% 124.49% at 91.35% 92.92%,
+    rgba(253, 152, 238, 0.4) 15.5%,
+    rgba(255, 255, 255, 0) 100%,
+    rgba(255, 255, 255, 0) 100.01%
+  ); /* FF3.6-15 */
+  background: -webkit-radial-gradient(
+    96.95% 124.49% at 91.35% 92.92%,
+    rgba(253, 152, 238, 0.4) 15.5%,
+    rgba(255, 255, 255, 0) 100%,
+    rgba(255, 255, 255, 0) 100.01%
+  ); /* Chrome10-25,Safari5.1-6 */
+  background: radial-gradient(
+    96.95% 124.49% at 91.35% 92.92%,
+    rgba(253, 152, 238, 0.4) 15.5%,
+    rgba(255, 255, 255, 0) 100%,
+    rgba(255, 255, 255, 0) 100.01%
+  ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+.catalog_item:hover:after {
+  opacity: 1;
 }
 
 .catalog_item_text {
