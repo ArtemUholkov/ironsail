@@ -15,23 +15,25 @@
     <header>
       <div class="header_wrapper mycontainer">
         <div class="header_logo_wrapper">
-          <img src="img/global/logo.svg" alt="logo" class="header_logo" />
+          <a href="index.html" class="go_home"
+            ><img src="img/global/logo.svg" alt="logo" class="header_logo"
+          /></a>
         </div>
         <nav class="navbar">
           <ul class="navbar_menu">
             <img src="img/global/logo.svg" alt="logo" class="header_logo_tablet_mob" />
-            <li><p class="active_nav_elem">Home</p></li>
+            <li><a href="index.html" class="active_nav_elem">Home</a></li>
             <li>
-              <p class="nav_elem" href="#" onclick="">Pharmacy Accounts</p>
+              <a class="nav_elem" href="pharmacy-accounts.html">Pharmacy Accounts</a>
             </li>
             <li>
-              <p class="nav_elem" href="#" onclick="">Digital Marketing</p>
+              <a class="nav_elem" href="digital-marketing.html">Digital Marketing</a>
             </li>
             <li>
-              <p class="nav_elem" href="#" onclick="">Influencer Marketing</p>
+              <a class="nav_elem" href="influencer-marketing.html">Influencer Marketing</a>
             </li>
             <li>
-              <p class="nav_elem" href="#" onclick="">About Us</p>
+              <a class="nav_elem" href="about-us.html">About Us</a>
             </li>
 
             <div class="header_button_pair">
@@ -49,17 +51,17 @@
         <div class="popup" id="popup">
           <div class="popup_textblock" id="popupSlide">
             <ul class="navbar_menu_mobile">
-              <li><p class="nav_elem_mobile_active" href="">Home</p></li>
+              <li><a class="nav_elem_mobile_active" href="index.html">Home</a></li>
               <li>
-                <p class="nav_elem_mobile" href="">Pharmacy Accounts</p>
+                <a class="nav_elem_mobile" href="pharmacy-accounts.html">Pharmacy Accounts</a>
               </li>
               <li>
-                <p class="nav_elem_mobile" href="">Digital Marketing</p>
+                <a class="nav_elem_mobile" href="digital-marketing.html">Digital Marketing</a>
               </li>
               <li>
-                <p class="nav_elem_mobile" href="">Influencer Marketing</p>
+                <a class="nav_elem_mobile" href="influencer-marketing.html">Influencer Marketing</a>
               </li>
-              <li><p class="nav_elem_mobile" href="">About Us</p></li>
+              <li><a class="nav_elem_mobile" href="about-us.html">About Us</a></li>
               <div class="header_button_pair mobile_header_button_pair">
                 <a class="main_button main_button_mobile">Get in touch</a>
               </div>
@@ -77,7 +79,11 @@
               Professional services for
               <span class="hightlight_text">health & wellness providers</span>
             </h1>
-            <img src="img/main/doctormain.webp" alt="doctor" class="main_picture_image_mobile" />
+            <div class="wrap_mob_video">
+              <video autoplay muted loop alt="doctor" class="main_picture_image_mobile">
+                <source src="img/main/dr.mp4" type="video/mp4" />
+              </video>
+            </div>
             <div class="wrap_text-Title">
               <p class="text_title">Solutions to optimize your business</p>
             </div>
@@ -86,10 +92,12 @@
               optimize your pharmaceutical services to best serve your patients, and improve your
               internal workflow.
             </p>
-            <a href="#" class="main_button_accent">Create account</a>
+            <a href="pharmacy-accounts.html" class="main_button_accent">Create account</a>
           </div>
           <div class="main_picture_image_wrapper">
-            <img src="img/main/doctormain.webp" alt="doctor" class="main_picture_image" />
+            <video autoplay muted loop alt="doctor" class="main_picture_image">
+              <source src="img/main/dr.mp4" type="video/mp4" />
+            </video>
           </div>
         </div>
       </div>
@@ -113,7 +121,9 @@
             online, driving patient engagement and visibility. Unlock your full potential with
             innovative, data-driven strategies and expert implementation.
           </p>
-          <a href="#" class="main_button_accent digital_button">Grow My Digital Marketing</a>
+          <a href="digital-marketing.html" class="main_button_accent digital_button"
+            >Grow My Digital Marketing</a
+          >
         </div>
       </div>
     </section>
@@ -204,7 +214,9 @@
               Our network of elite pharmacies guarantees that every formula is safe and
               high-quality, and we also provide special prices and quick delivery times.
             </p>
-            <a href="#" class="main_button_accent solutions_button">Learn more</a>
+            <a href="pharmacy-accounts.html" class="main_button_accent solutions_button"
+              >Learn more</a
+            >
           </div>
           <div class="solutions_picture">
             <img src="img/solutions/p1.webp" alt="picture one" />
@@ -219,7 +231,9 @@
               Our network of elite pharmacies guarantees that every formula is safe and
               high-quality, and we also provide special prices and quick delivery times.
             </p>
-            <a href="#" class="main_button_accent solutions_button">Learn more</a>
+            <a href="digital-marketing.html" class="main_button_accent solutions_button"
+              >Learn more</a
+            >
           </div>
           <div class="solutions_picture solutions_right_picture">
             <img src="img/solutions/p2.webp" alt="picture one" />
@@ -234,7 +248,9 @@
               We provide staffing and payment processing solutions for healthcare companies, helping
               them to streamline their operations and reduce costs.
             </p>
-            <a href="#" class="main_button_accent solutions_button">Learn more</a>
+            <a href="influencer-marketing.html" class="main_button_accent solutions_button"
+              >Learn more</a
+            >
           </div>
           <div class="solutions_picture">
             <img src="img/solutions/p1.webp" alt="picture one" />
@@ -381,7 +397,7 @@
               Contact us today to see if your healthcare practice qualifies to be part of the
               IRONSAIL platform. We’d love to hear from you.
             </p>
-            <a href="#" class="main_button_accent start_button">Apply now</a>
+            <a href="about-us.html" class="main_button_accent start_button">Apply now</a>
           </div>
         </div>
       </div>
@@ -392,26 +408,31 @@
           <img src="img/footer/ironsail_solutions.svg" alt="logo" class="footer_logo_image" />
           <ul class="footer_nav_menu">
             <li class="footer_nav_link">
-              <a href="#" class="footer_exact_link">Pharmacy Accounts</a>
+              <a href="pharmacy-accounts.html" class="footer_exact_link">Pharmacy Accounts</a>
             </li>
             <li class="footer_nav_link">
-              <a href="#" class="footer_exact_link">Digital Marketing</a>
+              <a href="digital-marketing.html" class="footer_exact_link">Digital Marketing</a>
             </li>
             <li class="footer_nav_link">
-              <a href="#" class="footer_exact_link">Influencer Marketing</a>
+              <a href="influencer-marketing.html" class="footer_exact_link">Influencer Marketing</a>
             </li>
-            <li class="footer_nav_link"><a href="#" class="footer_exact_link">About Us</a></li>
+            <li class="footer_nav_link">
+              <a href="about-us.html" class="footer_exact_link">About Us</a>
+            </li>
           </ul>
           <a href="#" class="footer_button">Get in touch</a>
         </div>
         <div class="footer_socials_wrapper">
-          <a href="#" class="fb_icon_link"
+          <a href="https://www.facebook.com/ironsailsolutions/" target="_blank" class="fb_icon_link"
             ><img class="footer_social" src="img/footer/Facebook.svg" alt="facebook_icon"
           /></a>
-          <a href="#" class="inst_icon_link"
+          <a href="https://www.instagram.com/ironsail/" target="_blank" class="inst_icon_link"
             ><img class="footer_social" src="img/footer/Instagram.svg" alt="facebook_icon"
           /></a>
-          <a href="#" class="linkedin_icon_link"
+          <a
+            href="https://www.linkedin.com/company/ironsail/"
+            target="_blank"
+            class="linkedin_icon_link"
             ><img class="footer_social" src="img/footer/LinkedIn.svg" alt="facebook_icon"
           /></a>
         </div>

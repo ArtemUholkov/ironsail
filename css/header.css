@@ -94,6 +94,7 @@ header {
   transition: 0.2s;
   cursor: pointer;
   padding: 10px;
+  text-decoration: none;
 }
 .active_nav_elem {
   color: #814099;
@@ -103,14 +104,15 @@ header {
   font-weight: 600;
   line-height: 160%;
   padding: 10px;
+  text-decoration: none;
 }
 .active_nav_elem:hover {
   cursor: pointer;
 }
 .nav_elem:hover {
   color: #814099;
-  transition: 0.2s;
-  transform: scale(1.01);
+  font-size: 18.5px;
+  transition: all 0.2s;
 }
 
 .header_button_pair {
@@ -119,7 +121,7 @@ header {
   align-items: center;
   gap: 12px;
   border-radius: 8px;
-  border: 1.5px solid #141751;
+
   transition: all 0.5s;
 }
 .header_button_pair:hover {
@@ -269,6 +271,7 @@ header {
   }
 
   .nav_elem_mobile {
+    text-decoration: none;
     display: block;
     font-family: 'Gotham-normal';
     font-size: 18px;
@@ -285,6 +288,7 @@ header {
     font-weight: 600;
     line-height: 160%;
     color: #814099;
+    text-decoration: none;
   }
   .nav_elem_mobile:hover {
     background-color: gray;
