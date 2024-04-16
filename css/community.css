@@ -147,6 +147,9 @@
   }
 }
 @media (max-width: 600px) {
+  .community {
+    padding-bottom: 60px;
+  }
   .community_item_wrapper {
     width: 292px;
     padding: 38px 16px;

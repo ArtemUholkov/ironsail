@@ -35,11 +35,18 @@
 }
 /* POTENTIAL */
 .as_potential {
+  position: relative;
   width: 100%;
-  padding-top: 100px;
+  padding-top: 0px;
   padding-bottom: 100px;
   padding-left: 20px;
   padding-right: 20px;
+}
+.as_potential-right-block-ab {
+  position: absolute;
+  top: -185px;
+  right: 0;
+  z-index: -1;
 }
 
 .as_potential_wrapper {
@@ -112,6 +119,7 @@
 .as_solutions {
   height: auto;
   padding-bottom: 0;
+  padding-top: 0px;
 }
 .solutions_wrapper {
   height: auto;
@@ -158,6 +166,17 @@
     padding-top: 60px;
     padding-bottom: 60px;
   }
+  .as_potential-right-block-ab {
+    position: absolute;
+    top: -120px;
+    right: -20px;
+    z-index: -1;
+    width: 125.243px;
+    height: 154.18px;
+  }
+  .as_fb_ab_bot {
+    height: 270px;
+  }
 }
 
 .as_dig_image {
@@ -192,6 +211,7 @@
 }
 .as_digital {
   padding-bottom: 0;
+  padding-top: 0;
 }
 @media (max-width: 1005px) {
   .as_dig_image {
@@ -230,5 +250,91 @@
   }
   .start {
     padding: 0 20px;
+  }
+}
+
+.apo_wrapper {
+  position: absolute;
+  top: 200px;
+  right: 0;
+  display: flex;
+  padding: 20px;
+  align-items: center;
+  gap: 14px;
+  border-radius: 10px;
+  background: rgba(85, 149, 253, 0.85);
+  max-width: 282px;
+}
+.apo_icon {
+}
+.apo_texts_wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+}
+.apo_up_texts_wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 5px;
+}
+.apo_text {
+  color: #fff;
+  font-family: 'Gotham-normal';
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 107%;
+}
+.apo_chaning-item {
+  width: 30px;
+  height: 30px;
+  display: block;
+  position: relative;
+  overflow: hidden;
+}
+.apo_bottom_text {
+  width: 100%;
+  text-align: right;
+}
+.apo_numbers_wrapper {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  bottom: 0px;
+  gap: 5px;
+  transition: all 0.2s;
+}
+.apo_number {
+  color: #fff;
+  font-family: 'Gotham-normal';
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 107%;
+  width: 30px;
+  height: 26px;
+  text-align: center;
+}
+.mob-img_wrapper {
+  display: none;
+}
+@media (max-width: 1005px) {
+  .mob-img_wrapper {
+    display: block;
+    position: relative;
+  }
+  .apo_numbers_wrapper_mob {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: 0px;
+    gap: 5px;
+    transition: all 0.2s;
   }
 }

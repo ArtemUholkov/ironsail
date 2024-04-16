@@ -1,10 +1,13 @@
 .cfirst {
+  margin: 0 auto;
+  padding-bottom: 80px;
+  padding-top: 60px;
+  background: #f2f7ff;
+}
+.cfirts_wrapper {
   max-width: 1140px;
   width: 100%;
   margin: 0 auto;
-  padding-bottom: 100px;
-}
-.cfirts_wrapper {
   display: flex;
   flex-direction: column;
   gap: 60px;
@@ -91,6 +94,7 @@
   right: 0;
   bottom: 0;
   z-index: -1;
+  border-radius: 30px;
   background: -moz-radial-gradient(
       37.42% 68.86% at 10.03% 4.88%,
       rgba(255, 255, 255, 0.4) 0%,

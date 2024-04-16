@@ -86,6 +86,10 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    gap: 16px;
+  }
+  .ph_main_picture {
+    padding-bottom: 60px;
   }
   .ph_text_title {
     font-size: 18px;
@@ -98,7 +102,7 @@ body {
   }
   .ph_h1 {
     max-width: 310px;
-    font-size: 29px;
+    font-size: 28px;
   }
   .ph_wrap_text-Title {
     max-width: 289px;
@@ -309,11 +313,28 @@ body {
 @media (max-width: 861px) {
   .ph_catalog_right_block {
     position: absolute;
-    top: 700px;
+    top: 957px;
     right: 0;
     transform: rotate(-30deg);
     width: 129.119px;
     height: 194px;
+  }
+  .catalog {
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 20px;
+    width: auto;
+  }
+  .catalog_title {
+    font-size: 32px;
+  }
+  .catalog_subtitle {
+    font-size: 16px;
+    max-width: 300px;
+  }
+  .catalog_wrapper {
+    padding-left: 10px;
+    padding-right: 10px;
   }
 }
 
