@@ -7,6 +7,9 @@
   line-height: 160%;
   max-width: 532px;
 }
+.as_ph_form {
+  padding-top: 0;
+}
 .as_mob_img {
   position: relative;
 }
@@ -18,6 +21,9 @@
     z-index: -1;
     width: 100.526px;
     height: 178.948px;
+  }
+  .as_ph_form {
+    padding-top: 60px;
   }
   .as_h1 {
     font-size: 32px;

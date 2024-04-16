@@ -9,7 +9,10 @@
   border-bottom-color: transparent;
   border-left-color: transparent;
 }
-
+.form-submit-button {
+  width: 100% !important;
+  margin-left: 0 !important;
+}
 .dig_dig_wrapper3 {
   border-color: white;
   border-bottom-color: transparent;

@@ -356,7 +356,7 @@ body {
 .ph_form_right_ab_block {
   position: absolute;
   bottom: 0;
-  right: 20px;
+  right: 0px;
 }
 .ph_form_wrapper {
   display: flex;
