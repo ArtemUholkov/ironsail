@@ -42,7 +42,7 @@
   align-items: flex-start;
 }
 .start_content_texts_title {
-  color: #141751;
+  color: var(--main-color);
   font-family: 'Gotham-normal';
   font-size: 48px;
   font-style: normal;
@@ -51,7 +51,7 @@
   margin-bottom: 8px;
 }
 .start_content_texts_text {
-  color: #141751;
+  color: var(--main-color);
   font-family: 'Gotham-normal';
   font-size: 18px;
   font-style: normal;

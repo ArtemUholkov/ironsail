@@ -137,6 +137,8 @@ table {
 
 /*COLOR VARIABLES START*/
 :root {
+  --main-color: #141751;
+  --sec-main-color: #814099;
   --main-bg-color: #21482e;
   --sub-bg-color: #232426;
   --usual-decorations: #eead44;

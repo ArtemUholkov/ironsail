@@ -84,7 +84,7 @@ header {
 }
 
 .nav_elem {
-  color: #141751;
+  color: var(--main-color);
   /* Body Text 2 */
   font-family: 'Gotham-normal';
   font-size: 18px;
@@ -97,7 +97,7 @@ header {
   text-decoration: none;
 }
 .active_nav_elem {
-  color: #814099;
+  color: var(--sec-main-color);
   font-family: 'Gotham-normal';
   font-size: 18px;
   font-style: normal;
@@ -110,7 +110,7 @@ header {
   cursor: pointer;
 }
 .nav_elem:hover {
-  color: #814099;
+  color: var(--sec-main-color);
   font-size: 18.5px;
   transition: all 0.2s;
 }
@@ -130,7 +130,7 @@ header {
   padding: 12px 32px;
   border: 1px solid #ffffff;
   border-radius: 8px;
-  border: 1.5px solid #141751;
+  border: 1.5px solid var(--main-color);
   cursor: pointer;
   transition: all 0.3s;
   font-family: 'Gotham-normal';
@@ -140,7 +140,7 @@ header {
   line-height: 140%;
 }
 .main_button:hover {
-  border: 1.5px solid var(--blue, #141751);
+  border: 1.5px solid var(--main-color);
   background: rgba(153, 194, 255, 0.55);
 
   transition: all 0.3s;
@@ -278,7 +278,7 @@ header {
     font-style: normal;
     font-weight: 400;
     line-height: 160%;
-    color: #141751;
+    color: var(--main-color);
   }
   .nav_elem_mobile_active {
     font-weight: 600;
@@ -287,7 +287,7 @@ header {
     font-style: normal;
     font-weight: 600;
     line-height: 160%;
-    color: #814099;
+    color: var(--sec-main-color);
     text-decoration: none;
   }
   .nav_elem_mobile:hover {

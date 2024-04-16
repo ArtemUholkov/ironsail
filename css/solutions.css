@@ -38,7 +38,7 @@
   margin-top: 0;
 }
 .solutions_title {
-  color: #141751;
+  color: var(--main-color);
   font-family: 'Gotham-normal';
   font-size: 28px;
   font-style: normal;
@@ -47,7 +47,7 @@
   max-width: 340px;
 }
 .solutions_text {
-  color: #141751;
+  color: var(--main-color);
   font-family: 'Gotham-normal';
   font-size: 18px;
   font-style: normal;

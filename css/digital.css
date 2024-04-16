@@ -29,7 +29,7 @@
   flex-direction: column;
 }
 .section_title {
-  color: #141751;
+  color: var(--main-color);
   font-family: 'Gotham-bold';
   font-size: 48px;
   font-style: normal;

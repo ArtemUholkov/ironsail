@@ -1,6 +1,6 @@
 footer {
   width: 100%;
-  background-color: #141751;
+  background-color: var(--main-color);
 }
 
 .footer_wrapper {

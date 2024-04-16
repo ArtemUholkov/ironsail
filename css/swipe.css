@@ -82,7 +82,7 @@
   transition: all 2s;
 }
 .switcher_text {
-  color: #814099;
+  color: var(--sec-main-color);
   text-align: center;
   font-family: 'Gotham-normal';
   font-size: 16px;

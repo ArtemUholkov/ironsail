@@ -1,5 +1,5 @@
 .as_text_text {
-  color: #141751;
+  color: var(--main-color);
   font-family: 'Gotham-normal';
   font-size: 22px;
   font-style: normal;
@@ -63,7 +63,7 @@
   margin-bottom: 40px;
 }
 .as_potential_title {
-  color: #141751;
+  color: var(--main-color);
   text-align: center;
   font-family: 'Gotham-normal';
   font-size: 48px;
@@ -74,7 +74,7 @@
 }
 
 .as_potential_text {
-  color: #141751;
+  color: var(--main-color);
   text-align: center;
   font-family: 'Gotham-normal';
   font-size: 18px;

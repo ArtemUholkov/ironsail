@@ -95,7 +95,7 @@ body {
   justify-content: center;
 }
 .im_apart_title {
-  color: #141751;
+  color: var(--main-color);
   text-align: center;
   font-family: 'Gotham-normal';
   font-size: 48px;
@@ -232,7 +232,7 @@ body {
   margin-bottom: 22px;
 }
 .im_apart_item_tittle {
-  color: #814099;
+  color: var(--sec-main-color);
   font-family: 'Gotham-normal';
   font-size: 28px;
   font-style: normal;
@@ -243,7 +243,7 @@ body {
   text-align: center;
 }
 .apart_item_text {
-  color: #141751;
+  color: var(--main-color);
   font-family: 'Gotham-normal';
   font-size: 18px;
   font-style: normal;
@@ -708,7 +708,7 @@ body {
   margin: 0 auto;
 }
 .im_hiw_title {
-  color: #141751;
+  color: var(--main-color);
   font-family: 'Gotham-normal';
   font-size: 48px;
   font-style: normal;
@@ -746,7 +746,7 @@ body {
   position: absolute;
   top: 27px;
   left: -97px;
-  color: #141751;
+  color: var(--main-color);
   text-align: center;
   font-family: 'Gotham-normal';
   font-size: 47.813px;
@@ -758,7 +758,7 @@ body {
   position: absolute;
   top: 25px;
   left: -100px;
-  color: #141751;
+  color: var(--main-color);
   text-align: center;
   font-family: 'Gotham-normal';
   font-size: 47.813px;
@@ -770,7 +770,7 @@ body {
   position: absolute;
   top: 25px;
   left: -100px;
-  color: #141751;
+  color: var(--main-color);
   text-align: center;
   font-family: 'Gotham-normal';
   font-size: 47.813px;
@@ -782,7 +782,7 @@ body {
   position: absolute;
   top: 40px;
   left: -105px;
-  color: #141751;
+  color: var(--main-color);
   text-align: center;
   font-family: 'Gotham-normal';
   font-size: 47.813px;
@@ -798,7 +798,7 @@ body {
   cursor: pointer;
 }
 .im_hiw_item_title {
-  color: #814099;
+  color: var(--sec-main-color);
   font-family: 'Gotham-normal';
   font-size: 28px;
   font-style: normal;
@@ -806,7 +806,7 @@ body {
   line-height: 120%;
 }
 .im_hiw_item_text {
-  color: #141751;
+  color: var(--main-color);
   font-family: 'Gotham-normal';
   font-size: 18px;
   font-style: normal;
@@ -900,7 +900,7 @@ body {
   width: 170px;
 }
 .im_im_titles_title {
-  color: #141751;
+  color: var(--main-color);
   text-align: center;
   font-family: 'Gotham-normal';
   font-size: 48px;
@@ -911,7 +911,7 @@ body {
   margin-bottom: 18px;
 }
 .im_im_titles_text {
-  color: #141751;
+  color: var(--main-color);
   text-align: center;
   font-family: 'Gotham-normal';
   font-size: 18px;
@@ -962,7 +962,7 @@ body {
   justify-content: center;
 }
 .im_im_item_texts_title {
-  color: #141751;
+  color: var(--main-color);
   font-family: 'Gotham-normal';
   font-size: 28px;
   font-style: normal;
@@ -971,7 +971,7 @@ body {
   text-align: center;
 }
 .im_im_item_texts_text {
-  color: #141751;
+  color: var(--main-color);
   text-align: center;
   font-family: 'Gotham-normal';
   font-size: 18px;

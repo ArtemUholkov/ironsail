@@ -34,7 +34,7 @@
 }
 
 .numbers_subtitle {
-  color: #141751;
+  color: var(--main-color);
   font-family: 'Gotham-normal';
   font-size: 28px;
   font-style: normal;
@@ -66,7 +66,7 @@
   align-items: center;
 }
 .business_item_plus {
-  color: #814099;
+  color: var(--sec-main-color);
   font-family: 'Gotham';
   font-size: 120px;
   font-style: normal;
@@ -83,7 +83,7 @@
   width: 271px;
 }
 .business_item_text {
-  color: #141751;
+  color: var(--main-color);
 
   font-family: 'Gotham-normal';
   font-size: 28px;

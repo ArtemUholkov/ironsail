@@ -25,12 +25,12 @@
   font-weight: 600;
   line-height: 120%;
   margin-bottom: 18px;
-  color: #141751;
+  color: var(--main-color);
   max-width: 822px;
 }
 
 .cfirst_subtitle {
-  color: #141751;
+  color: var(--main-color);
   text-align: center;
   font-family: 'Gotham-normal';
   font-size: 28px;
@@ -40,7 +40,7 @@
   margin-bottom: 8px;
 }
 .cfirst_text {
-  color: #141751;
+  color: var(--main-color);
   text-align: center;
   font-family: 'Gotham-normal';
   font-size: 18px;
@@ -171,7 +171,7 @@
   margin-bottom: 32px;
 }
 .cfirst_item_content_title {
-  color: #141751;
+  color: var(--main-color);
   font-family: 'Gotham-normal';
   font-size: 28px;
   font-style: normal;
@@ -180,7 +180,7 @@
   margin-bottom: 8px;
 }
 .cfirst_item_content_text {
-  color: #141751;
+  color: var(--main-color);
   font-family: 'Gotham-normal';
   font-size: 18px;
   font-style: normal;

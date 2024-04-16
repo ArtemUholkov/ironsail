@@ -47,7 +47,7 @@ body {
   padding: 12px 32px;
 }
 .ph_main_button {
-  color: #141751;
+  color: var(--main-color);
   font-family: 'Gotham-normal';
   font-size: 18px;
   font-style: normal;
@@ -55,7 +55,7 @@ body {
   line-height: 140%;
   padding: 12px 32px;
   border-radius: 8px;
-  border: 1.5px solid #141751;
+  border: 1.5px solid var(--main-color);
   transition: all 0.3s;
   text-decoration: none;
 }
@@ -149,7 +149,7 @@ body {
   gap: 16px;
 }
 .catalog_title {
-  color: #141751;
+  color: var(--main-color);
   font-family: 'Gotham-normal';
   font-size: 48px;
   font-style: normal;
@@ -157,7 +157,7 @@ body {
   line-height: 120%;
 }
 .catalog_subtitle {
-  color: #141751;
+  color: var(--main-color);
   font-family: 'Gotham-normal';
   font-size: 18px;
   font-style: normal;
@@ -290,7 +290,7 @@ body {
 }
 
 .catalog_item_text {
-  color: #141751;
+  color: var(--main-color);
   text-align: center;
   font-family: 'Gotham-normal';
   font-size: 28px;
@@ -371,7 +371,7 @@ body {
   margin-bottom: 40px;
 }
 .ph_form_title {
-  color: #141751;
+  color: var(--main-color);
   text-align: center;
   font-family: 'Gotham-normal';
   font-size: 48px;
@@ -380,7 +380,7 @@ body {
   line-height: 120%;
 }
 .ph_form_subtitle {
-  color: #141751;
+  color: var(--main-color);
   text-align: center;
   font-family: 'Gotham-normal';
   font-size: 18px;
@@ -413,7 +413,7 @@ body {
   align-items: flex-start;
 }
 .ph_exact_form_title {
-  color: #141751;
+  color: var(--main-color);
   font-family: 'Gotham-normal';
   font-size: 22px;
   font-style: normal;
@@ -424,7 +424,7 @@ body {
   width: 100%;
 }
 .ph_sec_title {
-  color: #141751;
+  color: var(--main-color);
   font-family: 'Gotham-normal';
   font-size: 18px;
   font-style: normal;
@@ -498,7 +498,7 @@ input::placeholder {
 }
 .ph_return_button {
   margin: 0 auto;
-  color: #141751;
+  color: var(--main-color);
 }
 .ph_numb_no_margin {
   margin-bottom: 0;
@@ -554,7 +554,7 @@ input::placeholder {
   margin-bottom: 22px;
 }
 .ph_manager_name {
-  color: #141751;
+  color: var(--main-color);
   font-family: 'Gotham-normal';
   font-size: 22px;
   font-style: normal;
@@ -564,7 +564,7 @@ input::placeholder {
   margin-bottom: 8px;
 }
 .ph_manager_mail {
-  color: #141751;
+  color: var(--main-color);
   font-family: 'Gotham-normal';
   font-size: 18px;
   font-style: normal;
@@ -574,7 +574,7 @@ input::placeholder {
 .ph_manager_link {
   text-decoration: none;
   transition: all 0.3s;
-  color: #141751;
+  color: var(--main-color);
 }
 .ph_manager_link:hover {
   opacity: 0.7;
@@ -586,7 +586,7 @@ input::placeholder {
   margin-bottom: 8px;
 }
 .ph_manager_working_hours {
-  color: #141751;
+  color: var(--main-color);
   font-family: 'Gotham-normal';
   font-size: 26px;
   font-style: normal;
@@ -596,7 +596,7 @@ input::placeholder {
   margin-bottom: 12px;
 }
 .ph_manager_open_time {
-  color: #141751;
+  color: var(--main-color);
   font-family: 'Gotham-normal';
   font-size: 22px;
   font-style: normal;

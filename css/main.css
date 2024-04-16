@@ -52,7 +52,7 @@ h2 {
   margin-bottom: 16px;
 }
 h1 {
-  color: #141751;
+  color: var(--main-color);
   font-family: 'Gotham-bold';
   font-size: 48px;
   font-style: normal;
@@ -62,10 +62,10 @@ h1 {
   margin-bottom: 22px;
 }
 .hightlight_text {
-  color: #814099;
+  color: var(--sec-main-color);
 }
 .text_title {
-  color: #141751;
+  color: var(--main-color);
   font-family: 'Gotham-normal';
   font-size: 28px;
   font-style: normal;
@@ -74,7 +74,7 @@ h1 {
   margin-bottom: 12px;
 }
 .text_text {
-  color: #141751;
+  color: var(--main-color);
   font-family: 'Gotham-normal';
   font-size: 22px;
   font-style: normal;

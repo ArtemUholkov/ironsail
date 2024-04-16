@@ -38,7 +38,7 @@
   width: 50%;
 }
 .community_title {
-  color: #141751;
+  color: var(--main-color);
   font-family: 'Gotham-normal';
   font-size: 48px;
   font-style: normal;
@@ -47,7 +47,7 @@
   margin-bottom: 12px;
 }
 .community_subtitle {
-  color: #141751;
+  color: var(--main-color);
   font-family: 'Gotham-normal';
   font-size: 26px;
   font-style: normal;
@@ -88,7 +88,7 @@
   align-items: flex-start;
 }
 .community_item_texts_title {
-  color: #814099;
+  color: var(--sec-main-color);
   font-family: 'Gotham-normal';
   font-size: 28px;
   font-style: normal;
@@ -96,7 +96,7 @@
   line-height: 120%;
 }
 .community_item_texts_text {
-  color: #141751;
+  color: var(--main-color);
   font-family: 'Gotham-normal';
   font-size: 18px;
   font-style: normal;
