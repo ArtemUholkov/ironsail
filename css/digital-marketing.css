@@ -309,9 +309,12 @@
 }
 .dm_clients {
   width: 100%;
-  padding-top: 100px;
+  padding-top: 0px;
   padding-left: 20px;
   padding-right: 20px;
+}
+.jfWelcome-wrapper {
+  display: none !important;
 }
 .dm_clients_wrapper {
   max-width: 1143px;
