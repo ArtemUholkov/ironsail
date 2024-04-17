@@ -7,6 +7,8 @@
     <!-- Slider-swiper -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
     <!-- Slider-swiper -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -716,7 +718,7 @@
     <section class="main_picture">
       <div class="main_picture_wrapper">
         <div class="main_picture_content">
-          <div class="main_picture_content_text">
+          <div class="main_picture_content_text" data-aos="fade-right" data-aos-duration="1000">
             <h2>What we do</h2>
             <h1>
               Professional services for
@@ -735,9 +737,10 @@
               optimize your pharmaceutical services to best serve your patients, and improve your
               internal workflow.
             </p>
+
             <a href="pharmacy-accounts.html" class="main_button_accent">Create account</a>
           </div>
-          <div class="main_picture_image_wrapper">
+          <div class="main_picture_image_wrapper" data-aos="fade-left" data-aos-duration="1000">
             <video autoplay muted loop alt="doctor" class="main_picture_image">
               <source src="img/main/dr.mp4" type="video/mp4" />
             </video>
@@ -746,13 +749,25 @@
       </div>
     </section>
     <section class="digital">
-      <img src="img/digital/left.webp" alt="left" class="left-bg_img" />
-      <img src="img/digital/right.webp" alt="left" class="right-bg_img" />
+      <img
+        src="img/digital/left.webp"
+        alt="left"
+        class="left-bg_img"
+        data-aos="fade-up"
+        data-aos-duration="1500"
+      />
+      <img
+        src="img/digital/right.webp"
+        alt="left"
+        class="right-bg_img"
+        data-aos="fade-up"
+        data-aos-duration="1500"
+      />
       <div class="digital_wrapper">
-        <div class="digital_image_wrapper">
+        <div class="digital_image_wrapper" data-aos="fade-up" data-aos-duration="1500">
           <img src="img/digital/mac.webp" alt="macbook" class="digital_image" />
         </div>
-        <div class="digital_texts_wrapper">
+        <div class="digital_texts_wrapper" data-aos="fade-up" data-aos-duration="1500">
           <h2 class="digital_subtitle">Prescribe Success</h2>
           <p class="section_title">
             Digital marketing tailored for <span class="hightlight_text">healthcare brands</span>
@@ -772,7 +787,7 @@
     </section>
     <section class="cfirst">
       <div class="cfirts_wrapper">
-        <div class="cfirtst_texts_wrapper">
+        <div data-aos="fade-up" class="cfirtst_texts_wrapper">
           <p class="cfirst_title">
             <span class="hightlight_text">Customer-first</span> philosophy meets unmatched expertise
           </p>
@@ -782,7 +797,7 @@
             path for your success.
           </p>
         </div>
-        <div class="cfirst_items_wrapper">
+        <div data-aos="fade-up" class="cfirst_items_wrapper">
           <div class="cfirst_item">
             <div class="cfirst_item_content_wrapper">
               <img class="cfirst_item_content_image" src="img/cfirst/pen.svg" alt="pen" />
@@ -817,9 +832,15 @@
       </div>
     </section>
     <section class="business">
-      <img src="img/numbers/2purple.webp" alt="blocks" class="business_block" />
+      <img
+        src="img/numbers/2purple.webp"
+        alt="blocks"
+        class="business_block"
+        data-aos="fade-up"
+        data-aos-duration="1500"
+      />
       <div class="business_wrapper">
-        <div class="business_texts_wrapper">
+        <div class="business_texts_wrapper" data-aos="fade-up">
           <h2>Numbers</h2>
           <p class="numbers_title">
             Put our experience to work for<span class="hightlight_text"> your business</span>
@@ -828,16 +849,24 @@
         </div>
         <div class="b_items">
           <div class="business_items_wrapper">
-            <div class="business_item business_left_item">
+            <div
+              class="business_item business_left_item"
+              data-aos="fade-right"
+              data-aos-duration="1000"
+            >
               <p class="business_item_number">230<span class="business_item_plus">+</span></p>
               <p class="business_item_text">Successful marketing campaigns</p>
             </div>
-            <div class="business_item business_right_item">
+            <div
+              class="business_item business_right_item"
+              data-aos="fade-left"
+              data-aos-duration="1000"
+            >
               <p class="business_item_number">10<span class="business_item_plus">+</span></p>
               <p class="business_item_text">Dedicated support specialists</p>
             </div>
           </div>
-          <div class="business_item_wrapper">
+          <div class="business_item_wrapper" data-aos="fade-up" data-aos-duration="1000">
             <p class="business_item_number">
               <span class="business_item_plus">></span>300<span class="business_item_plus">+</span>
             </p>
@@ -848,7 +877,7 @@
     </section>
     <section class="solutions">
       <div class="solutions_wrapper">
-        <div class="solutions_wrap_2_togather">
+        <div class="solutions_wrap_2_togather" data-aos="fade-up" data-aos-duration="1000">
           <div class="solutions_item_text">
             <p class="solutions_title">
               Tailored Compounding Pharmacy<span class="hightlight_text"> Solutions</span>
@@ -865,7 +894,11 @@
             <img src="img/solutions/p1.webp" alt="picture one" />
           </div>
         </div>
-        <div class="solutions_wrap_2_togather solutions_reverse">
+        <div
+          class="solutions_wrap_2_togather solutions_reverse"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+        >
           <div class="solutions_item_text solutions_right_text">
             <p class="solutions_title">
               Digital <span class="hightlight_text">Marketing </span>Services
@@ -882,7 +915,11 @@
             <img src="img/solutions/p2.webp" alt="picture one" />
           </div>
         </div>
-        <div class="solutions_wrap_2_togather solutions_last_item">
+        <div
+          data-aos="fade-up"
+          data-aos-duration="1000"
+          class="solutions_wrap_2_togather solutions_last_item"
+        >
           <div class="solutions_item_text solutions_no_margin">
             <p class="solutions_title">
               Staffing And Payment<span class="hightlight_text"> Processing</span>
@@ -901,7 +938,7 @@
         </div>
       </div>
     </section>
-    <section class="testimonials">
+    <section class="testimonials" data-aos="fade-up" data-aos-duration="1000">
       <div class="testimonials_wrapper">
         <h2 class="testi_title">Testimonials</h2>
         <div class="testimonials_slider">
@@ -971,8 +1008,20 @@
       </div>
     </section>
     <section class="community">
-      <img src="img/community/comright.webp" alt="right block" class="community_right_block" />
-      <img src="img/community/comleft.webp" alt="left block" class="community_left_block" />
+      <img
+        src="img/community/comright.webp"
+        data-aos="fade-up"
+        data-aos-duration="1500"
+        alt="right block"
+        class="community_right_block"
+      />
+      <img
+        src="img/community/comleft.webp"
+        data-aos="fade-up"
+        data-aos-duration="1500"
+        alt="left block"
+        class="community_left_block"
+      />
       <div class="community_wrapper">
         <div class="community_title_item_wrapper">
           <div class="community_titles_wrapper">
@@ -1029,7 +1078,7 @@
         </div>
       </div>
     </section>
-    <section class="start">
+    <section class="start" data-aos="fade-up">
       <div class="start_wrapper">
         <img src="img/start/drlady.webp" alt="lady doctor" class="start_doctor_image" />
         <div class="start_content_wrapper">
@@ -1045,7 +1094,7 @@
         </div>
       </div>
     </section>
-    <footer>
+    <footer data-aos="fade-up">
       <div class="footer_wrapper">
         <div class="footer_links_wrapper">
           <img src="img/footer/ironsail_solutions.svg" alt="logo" class="footer_logo_image" />
@@ -1125,5 +1174,9 @@
       integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
       crossorigin="anonymous"
     ></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>

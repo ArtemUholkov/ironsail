@@ -11,6 +11,8 @@
       crossorigin="anonymous"
     />
     <title>Ironsail - Pharmacy Accounts</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
     <link rel="icon" href="img/global/favicon.webp" />
     <link rel="stylesheet" href="css/index.css" />
     <link rel="stylesheet" href="css/pharmacy-accounts.css" />
@@ -713,12 +715,18 @@
       </div>
     </header>
     <section class="main_picture ph_main_picture">
-      <img src="img/pharmacy-accounts/leftblock.webp" alt="left block" class="ph_main_left_block" />
+      <img
+        src="img/pharmacy-accounts/leftblock.webp"
+        data-aos="fade-up"
+        data-aos-duration="1500"
+        alt="left block"
+        class="ph_main_left_block"
+      />
       <div class="main_picture_wrapper">
         <div class="main_picture_content ph_main_picture_content">
           <div class="main_picture_content_text">
-            <h2>Provider registration</h2>
-            <h1 class="ph_h1">
+            <h2 data-aos="fade-left" data-aos-duration="1000">Provider registration</h2>
+            <h1 data-aos="fade-left" data-aos-duration="1000" data-aos-delay="100" class="ph_h1">
               Exclusive Pharmacy Accounts
               <span class="hightlight_text"></span>
             </h1>
@@ -728,16 +736,31 @@
               </video>
             </div>
             <div class="wrap_text-Title ph_wrap_text-Title">
-              <p class="text_title ph_text_title">
+              <p
+                class="text_title ph_text_title"
+                data-aos="fade-left"
+                data-aos-duration="1000"
+                data-aos-delay="200"
+              >
                 We’re happy to provide you with a wide range of prescription medications.
               </p>
             </div>
-            <p class="text_text ph_text_text">
+            <p
+              class="text_text ph_text_text"
+              data-aos="fade-left"
+              data-aos-duration="1000"
+              data-aos-delay="300"
+            >
               These medications, which can be hard to reliably source elsewhere, are uniquely
               crafted by reputable compounding pharmacies to cater to your practice’s distinct
               needs.
             </p>
-            <div class="ph_wrap_buttons">
+            <div
+              class="ph_wrap_buttons"
+              data-aos="fade-left"
+              data-aos-duration="1000"
+              data-aos-delay="400"
+            >
               <a href="#ph_form" class="main_button_accent ph_main_button_accent">Sign up</a>
               <a
                 href="https://ironsail.ai/wp-content/uploads/2024/03/Ironsail-Catalog.pdf"
@@ -760,16 +783,20 @@
         src="img/pharmacy-accounts/catalogright.webp"
         alt="right block"
         class="ph_catalog_right_block"
+        data-aos="fade-up"
+        data-aos-duration="1500"
       />
       <div class="catalog_wrapper">
         <div class="catalog_titles">
-          <p class="catalog_title"><span class="hightlight_text">Our</span> catalog</p>
-          <p class="catalog_subtitle">
+          <p class="catalog_title" data-aos="fade-up">
+            <span class="hightlight_text">Our</span> catalog
+          </p>
+          <p class="catalog_subtitle" data-aos="fade-up">
             You can familiarize yourself with our catalog, which is divided into different types of
             therapies
           </p>
         </div>
-        <div class="catalog_items">
+        <div class="catalog_items" data-aos="fade-up" data-aos-duration="1300">
           <div class="catalog_item">
             <img src="img/pharmacy-accounts/body.svg" alt="body" class="catalog_item_image" />
             <p class="catalog_item_text">Weight Loss Therapy</p>
@@ -822,11 +849,15 @@
         src="img/pharmacy-accounts/ph-form-left.webp"
         alt="left block"
         class="ph_left_ab_block"
+        data-aos="fade-up"
+        data-aos-duration="1500"
       />
       <img
         src="img/pharmacy-accounts/ph-form-right.webp"
         alt="right block"
         class="ph_form_right_ab_block"
+        data-aos="fade-up"
+        data-aos-duration="1500"
       />
       <div class="ph_form_wrapper">
         <div class="ph_form_titles_wrapper">
@@ -3523,8 +3554,8 @@
         <img src="img/start/drlady.webp" alt="lady doctor" class="start_doctor_image" />
         <div class="start_content_wrapper">
           <div class="start_conent_texts_wrapper">
-            <h2>Manager</h2>
-            <div class="ph_manager_wrap_items">
+            <h2 data-aos="fade-up">Manager</h2>
+            <div class="ph_manager_wrap_items" data-aos="fade-up">
               <p class="start_content_texts_title ph_manager_title">Do you have any questions?</p>
               <p class="ph_manager_name">Ariel Bass</p>
               <p class="ph_manager_mail">
@@ -3532,14 +3563,14 @@
                 <a href="mailto:ariel@ironsail.ai" class="ph_manager_link">ariel@ironsail.ai</a>
               </p>
             </div>
-            <p class="ph_manager_working_hours">Working Hours</p>
-            <p class="ph_manager_open_time">Open: Mon-Fri | 9am – 5pm (EST)</p>
+            <p class="ph_manager_working_hours" data-aos="fade-up">Working Hours</p>
+            <p class="ph_manager_open_time" data-aos="fade-up">Open: Mon-Fri | 9am – 5pm (EST)</p>
           </div>
         </div>
       </div>
     </section>
     <footer>
-      <div class="footer_wrapper">
+      <div class="footer_wrapper" data-aos="fade-up">
         <div class="footer_links_wrapper">
           <img src="img/footer/ironsail_solutions.svg" alt="logo" class="footer_logo_image" />
           <ul class="footer_nav_menu">
@@ -3596,5 +3627,9 @@
       integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
       crossorigin="anonymous"
     ></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>

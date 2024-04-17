@@ -12,6 +12,8 @@
       integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
       crossorigin="anonymous"
     />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
     <link rel="icon" href="img/global/favicon.webp" />
     <link rel="stylesheet" href="css/index.css" />
     <link rel="stylesheet" href="css/pharmacy-accounts.css" />
@@ -717,10 +719,12 @@
         src="img/about-us/as-top-left.webp"
         alt="left block"
         class="ph_main_left_block as_main_left_block"
+        data-aos="fade-up"
+        data-aos-duration="1500"
       />
       <div class="main_picture_wrapper">
         <div class="main_picture_content ph_main_picture_content">
-          <div class="main_picture_content_text">
+          <div data-aos="fade-up" data-aos-duration="1000" class="main_picture_content_text">
             <h2>About us</h2>
             <h1 class="ph_h1 as_h1">
               Ironsail’s Story
@@ -809,9 +813,15 @@
       </div>
     </section>
     <section class="as_potential">
-      <img src="img/about-us/ab_left.webp" alt="left-block" class="as_potential-right-block-ab" />
+      <img
+        src="img/about-us/ab_left.webp"
+        data-aos="fade-up"
+        data-aos-duration="1500"
+        alt="left-block"
+        class="as_potential-right-block-ab"
+      />
       <div class="as_potential_wrapper">
-        <div class="as_potential_titles_wrapper">
+        <div class="as_potential_titles_wrapper" data-aos="fade-up" data-aos-duration="1000">
           <p class="as_potential_title">
             We are here to help you grow to your <span class="hightlight_text">full potential</span>
           </p>
@@ -824,7 +834,7 @@
         </div>
         <section class="solutions as_solutions">
           <div class="solutions_wrapper as_solutions_wrapper">
-            <div class="solutions_wrap_2_togather">
+            <div class="solutions_wrap_2_togather" data-aos="fade-up" data-aos-duration="1000">
               <div class="solutions_item_text as_item_text">
                 <p class="solutions_title">Our<span class="hightlight_text"> Partners</span></p>
                 <img
@@ -841,7 +851,11 @@
                 <img src="img/about-us/limg.webp" alt="picture one" class="p1_as_image" />
               </div>
             </div>
-            <div class="solutions_wrap_2_togather solutions_reverse">
+            <div
+              data-aos="fade-up"
+              data-aos-duration="1000"
+              class="solutions_wrap_2_togather solutions_reverse"
+            >
               <div class="solutions_item_text solutions_right_text">
                 <p class="solutions_title">Our <span class="hightlight_text">Team </span></p>
                 <img
@@ -862,7 +876,7 @@
         </section>
       </div>
     </section>
-    <section class="digital as_digital">
+    <section data-aos="fade-up" data-aos-duration="1000" class="digital as_digital">
       <img src="img/about-us/noteasleft.webp" alt="left" class="left-bg_img as_left_img" />
 
       <div class="digital_wrapper as_dig_wrapper">
@@ -890,7 +904,7 @@
         </div>
       </div>
     </section>
-    <section class="start">
+    <section class="start" data-aos="fade-up" data-aos-duration="1000">
       <div class="start_wrapper">
         <img src="img/start/drlady.webp" alt="lady doctor" class="start_doctor_image" />
         <div class="start_content_wrapper">
@@ -915,6 +929,8 @@
         src="img/about-us/formright.webp"
         alt="right block"
         class="ph_form_right_ab_block as_fb_ab_bot"
+        data-aos="fade-up"
+        data-aos-duration="1500"
       />
       <div class="ph_form_wrapper">
         <div class="ph_form_titles_wrapper">
@@ -1534,7 +1550,7 @@
       </div>
     </section>
 
-    <footer>
+    <footer data-aos="fade-up" data-aos-duration="1000">
       <div class="footer_wrapper">
         <div class="footer_links_wrapper">
           <img src="img/footer/ironsail_solutions.svg" alt="logo" class="footer_logo_image" />
@@ -1593,5 +1609,9 @@
       integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
       crossorigin="anonymous"
     ></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>

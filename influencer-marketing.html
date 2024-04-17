@@ -7,6 +7,8 @@
 
     <title>Ironsail - Pharmacy Accounts</title>
     <link rel="icon" href="img/global/favicon.webp" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -719,9 +721,11 @@
         <img src="img/infuelncer-marketing/main-girl.webp" alt="main girl" class="im_main_girl" />
         <div class="main_picture_content">
           <div class="main_picture_content_text">
-            <h1 class="im_h1">
+            <h1 class="im_h1" data-aos="fade-right" data-aos-duration="1000">
               Unlock the power of
-              <span class="hightlight_text">Influencer Marketing</span>
+              <span class="hightlight_text" data-aos="fade-right" data-aos-duration="1000"
+                >Influencer Marketing</span
+              >
             </h1>
             <img
               src="img/infuelncer-marketing/main-girl.webp"
@@ -729,25 +733,36 @@
               class="im_main_girl im_mob_girl"
             />
 
-            <p class="text_text im_main_text">
+            <p class="text_text im_main_text" data-aos="fade-right" data-aos-duration="1000">
               Our team combines creativity, data-driven insights, and industry expertise to craft
               campaigns that captivate your target audience.
             </p>
-            <a href="#im_im" class="main_button_accent im_main_button">Join us</a>
+            <a
+              data-aos="fade-right"
+              data-aos-duration="1000"
+              href="#im_im"
+              class="main_button_accent im_main_button"
+              >Join us</a
+            >
           </div>
         </div>
       </div>
     </section>
     <section class="im_apart">
       <img
-        src="img/infuelncer-marketing/im_apart_right.webp"
+        src="img/infuelncer-marketing/im_apart_right.webp
+        "
+        data-aos="fade-up"
+        data-aos-duration="1500"
         alt="right block"
         class="im_right_block_apart"
       />
       <div class="im_apart_wrapper">
-        <p class="im_apart_title">What sets us <span class="hightlight_text">apart</span>?</p>
+        <p class="im_apart_title" data-aos="fade-up" data-aos-duration="1000">
+          What sets us <span class="hightlight_text">apart</span>?
+        </p>
         <div class="im_apart_items_wrapper">
-          <div class="im_apart_items_pair">
+          <div class="im_apart_items_pair" data-aos="fade-up" data-aos-duration="1000">
             <div class="im_apart_item">
               <img src="img/infuelncer-marketing/1.svg" alt="" class="im_apart_item_img" />
               <p class="im_apart_item_tittle">Diverse Network</p>
@@ -765,7 +780,7 @@
               </p>
             </div>
           </div>
-          <div class="im_apart_items_pair">
+          <div class="im_apart_items_pair" data-aos="fade-up" data-aos-duration="1000">
             <div class="im_apart_item">
               <img src="img/infuelncer-marketing/3.svg" alt="" class="im_apart_item_img" />
               <p class="im_apart_item_tittle">Data-Driven Approach</p>
@@ -791,6 +806,8 @@
         src="img/infuelncer-marketing/im-digit-left.webp"
         alt="left"
         class="left-bg_img im_left_img_bg"
+        data-aos="fade-up"
+        data-aos-duration="1500"
       />
 
       <div class="digital_wrapper im_digital_wrapper">
@@ -845,6 +862,8 @@
         src="img/infuelncer-marketing/right-im_hiw.webp"
         alt="rightbgab"
         class="im_hiw_right_ab_image"
+        data-aos="fade-up"
+        data-aos-duration="1500"
       />
       <div class="im_hiw_wrapper">
         <h2 class="im_how_title">How</h2>
@@ -920,7 +939,7 @@
         </div>
       </div>
     </section>
-    <section class="im_im" id="im_im">
+    <section class="im_im" id="im_im" data-aos="fade-up" data-aos-duration="1000">
       <div class="im_im_wrapper">
         <div class="im_im_titles_wrapper">
           <h2 class="im_im_titles_subtitle">Get started</h2>
@@ -3172,7 +3191,7 @@
         </div>
       </div>
     </section>
-    <section class="start">
+    <section class="start" data-aos="fade-up" data-aos-duration="1000">
       <div class="start_wrapper">
         <img
           src="img/infuelncer-marketing/girl.webp"
@@ -3197,7 +3216,7 @@
       </div>
     </section>
 
-    <footer>
+    <footer data-aos="fade-up" data-aos-duration="1000">
       <div class="footer_wrapper">
         <div class="footer_links_wrapper">
           <img src="img/footer/ironsail_solutions.svg" alt="logo" class="footer_logo_image" />
@@ -3257,5 +3276,9 @@
       integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
       crossorigin="anonymous"
     ></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
