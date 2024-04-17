@@ -25,7 +25,7 @@ body {
 }
 .im_h1 {
   font-family: 'Gotham-normal';
-  font-weight: 400;
+  font-weight: 600;
 }
 @media (max-width: 1250px) {
   .im_main_girl {
@@ -635,7 +635,7 @@ body {
   width: 96px;
   height: 96px;
   border-radius: 50%;
-  border: 3px solid #ebeaea;
+  border: 3px solid #f8feff8e;
 
   border-bottom-color: #f9f9f9;
   border-left-color: #f9f9f9;
@@ -744,8 +744,8 @@ body {
 }
 .im_hiw_number {
   position: absolute;
-  top: 27px;
-  left: -97px;
+  top: 25px;
+  left: -98px;
   color: var(--main-color);
   text-align: center;
   font-family: 'Gotham-normal';
@@ -756,8 +756,8 @@ body {
 }
 .im_hiw_number_sec {
   position: absolute;
-  top: 25px;
-  left: -100px;
+  top: 23px;
+  left: -102px;
   color: var(--main-color);
   text-align: center;
   font-family: 'Gotham-normal';
@@ -768,8 +768,8 @@ body {
 }
 .im_hiw_number_trd {
   position: absolute;
-  top: 25px;
-  left: -100px;
+  top: 23px;
+  left: -102px;
   color: var(--main-color);
   text-align: center;
   font-family: 'Gotham-normal';
@@ -778,9 +778,24 @@ body {
   font-weight: 500;
   line-height: 120%;
 }
+.form-submit-button {
+  color: #fff;
+  width: 100% !important;
+  margin-left: 0 !important;
+}
+.im_influ_wrapper {
+  display: none;
+}
+.i_need_influ_wrapper {
+  display: none;
+}
+.show_block {
+  display: block;
+}
+
 .im_hiw_number_fth {
   position: absolute;
-  top: 40px;
+  top: 39px;
   left: -105px;
   color: var(--main-color);
   text-align: center;
@@ -1023,4 +1038,7 @@ body {
     padding: 32px 20px;
     gap: 0;
   }
+}
+.hide_block {
+  display: none;
 }

@@ -171,3 +171,17 @@ h1 {
   margin: 0 auto;
 }
 /*COMMONT STYLES END*/
+.step2-form {
+  max-width: 1130px;
+  margin: 0 auto;
+  padding-top: 20px;
+  padding-bottom: 50px;
+}
+.step-2_title {
+  margin-top: 50px;
+  font-family: 'Gotham-normal';
+  font-weight: 600;
+  color: var(--sec-main-color);
+  text-align: center;
+  font-size: 42px;
+}

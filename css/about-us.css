@@ -184,7 +184,13 @@
     height: 270px;
   }
 }
-
+.as_picture_wrapper {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 508px;
+  height: 600px;
+}
 .as_dig_image {
   width: 468px;
   height: 507px;
@@ -204,6 +210,10 @@
 }
 .as_ph_main_button {
   max-width: 180px;
+}
+.as_main_button {
+  border: 2px solid var(--main-color);
+  font-weight: 600;
 }
 .as_digital_image_mobile {
   width: 256px;
@@ -261,7 +271,7 @@
 
 .apo_wrapper {
   position: absolute;
-  top: 200px;
+  top: 230px;
   right: 0;
   display: flex;
   padding: 20px;
