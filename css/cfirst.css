@@ -55,6 +55,7 @@
   justify-content: space-between;
   align-items: center;
   gap: 32px;
+  z-index: 12;
 }
 .cfirst_item {
   position: relative;
