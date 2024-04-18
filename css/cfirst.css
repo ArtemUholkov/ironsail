@@ -73,6 +73,7 @@
     -0.712px 0.712px 0.712px 0px rgba(255, 255, 255, 0.35) inset,
     0px 12.825px 16.388px 0px rgba(0, 0, 0, 0.05);
   backdrop-filter: blur(28.5px);
+  -webkit-backdrop-filter: blur(28.5px);
 }
 
 .cfirst_item:before {
@@ -113,7 +114,8 @@
       rgba(255, 255, 255, 0.4) 0%,
       rgba(255, 255, 255, 0) 100%
     ),
-    rgba(255, 251, 251, 0.3); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    rgba(255, 251, 251, 0.3);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 }
 .cfirst_item:hover:before {
   opacity: 0;

@@ -138,6 +138,8 @@
       -0.712px 0.712px 0.712px 0px rgba(255, 255, 255, 0.35) inset,
       0px 12.825px 16.388px 0px rgba(0, 0, 0, 0.05);
     backdrop-filter: blur(28.5px);
+    -webkit-backdrop-filter: blur(28.5px);
+
   }
   .solutions_text {
     margin-bottom: 10px;
