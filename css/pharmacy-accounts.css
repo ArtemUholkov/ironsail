@@ -356,11 +356,13 @@ body {
   position: absolute;
   top: 20px;
   left: 0;
+  z-index: -1;
 }
 .ph_form_right_ab_block {
   position: absolute;
   bottom: 0;
   right: 0px;
+  z-index: -1;
 }
 .ph_form_wrapper {
   display: flex;
