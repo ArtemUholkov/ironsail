@@ -416,6 +416,9 @@
   .dm_clients_title {
     font-size: 32px;
   }
+  .dm_clients {
+    padding-top: 80px;
+  }
 }
 .roi {
   width: 100%;

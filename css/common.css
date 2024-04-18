@@ -185,3 +185,29 @@ h1 {
   text-align: center;
   font-size: 42px;
 }
+.modal_but {
+  height: 50px;
+  width: 50px;
+  border: 0;
+  outline: 0;
+  align-self: flex-end;
+  background: transparent;
+  font-size: 30px;
+}
+.common_form_text {
+  color: var(--main-color);
+  text-align: center;
+  font-family: 'Gotham-normal';
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 160%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 20px 30px;
+}
+@media (max-width: 753px) {
+  .common_form_text {
+    font-size: 16px;
+  }
+}

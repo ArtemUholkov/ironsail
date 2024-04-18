@@ -213,6 +213,7 @@ body {
     ),
     rgba(255, 251, 251, 0.3)
   );
+  border-radius: 30px;
   content: '';
   position: absolute;
   transition: opacity 0.35s ease-in-out;
@@ -253,6 +254,7 @@ body {
       rgba(49, 144, 189, 0) 100%
     ),
     rgba(255, 251, 251, 0.3);
+  border-radius: 30px;
   border-radius: 30px;
 
   content: '';

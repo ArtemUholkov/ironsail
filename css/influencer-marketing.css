@@ -18,6 +18,18 @@ body {
   display: flex;
   align-items: center;
 }
+.inf_back_button {
+  display: block;
+  color: var(--sec-main-color);
+  padding: 30px 20px;
+  margin: 0 auto;
+  text-align: center;
+  font-family: 'Gotham-normal';
+  font-weight: 500;
+  font-size: 20px;
+  align-self: center;
+  text-decoration: underline;
+}
 .im_main_girl {
   position: absolute;
   right: -50px;
@@ -259,6 +271,9 @@ body {
     padding: 30px 70px 40px;
   }
   .im_apart_items_pair {
+    gap: 60px;
+  }
+  .im_apart_items_wrapper {
     gap: 60px;
   }
 }
