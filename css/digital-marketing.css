@@ -313,9 +313,9 @@
   padding-left: 20px;
   padding-right: 20px;
 }
-.jfWelcome-wrapper {
+/* .jfWelcome-wrapper {
   display: none !important;
-}
+} */
 .dm_clients_wrapper {
   max-width: 1143px;
   margin: 0 auto;
@@ -488,7 +488,6 @@
     0px 12.825px 16.388px 0px rgba(0, 0, 0, 0.05);
   backdrop-filter: blur(28.5px);
   -webkit-backdrop-filter: blur(28.5px);
-
 }
 .roi_item:before {
   background: var(
