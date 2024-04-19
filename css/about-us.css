@@ -358,4 +358,7 @@
     gap: 5px;
     transition: all 0.2s;
   }
+  .step-2_title {
+    font-size: 25px;
+  }
 }
