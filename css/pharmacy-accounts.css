@@ -132,7 +132,7 @@ body {
   right: 0;
 }
 .catalog_wrapper {
-  max-width: 1176px;
+  max-width: 1376px;
   width: 100%;
   margin: 0 auto;
   display: flex;
@@ -197,7 +197,7 @@ body {
   backdrop-filter: blur(28.5px);
   -webkit-backdrop-filter: blur(28.5px);
 
-  padding: 48px 32px;
+  padding: 48px 39px;
   display: flex;
   flex-direction: column;
   align-items: center;
