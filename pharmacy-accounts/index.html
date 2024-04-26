@@ -51,6 +51,7 @@
       integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <title>Ironsail - Pharmacy Accounts</title>
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
 
@@ -221,12 +222,14 @@
               needs.
             </p>
             <div class="ph_wrap_buttons" data-aos="fade-left" data-aos-duration="1000">
-              <a href="#ph_form" class="main_button_accent ph_main_button_accent">Sign up</a>
+              <a href="#ph_form" class="main_button_accent ph_main_button_accent"
+                >Request an account</a
+              >
               <a
                 href="https://ironsail.ai/wp-content/uploads/2024/03/Ironsail-Catalog.pdf"
                 target="_blank"
                 class="ph_main_button"
-                >Check our catalog</a
+                >Check our offerings</a
               >
             </div>
           </div>
@@ -249,61 +252,87 @@
       <div class="catalog_wrapper">
         <div class="catalog_titles">
           <p class="catalog_title" data-aos="fade-up">
-            <span class="hightlight_text">Our</span> catalog
+            <span class="hightlight_text">Our</span> offerings
           </p>
           <p class="catalog_subtitle" data-aos="fade-up">
-            You can familiarize yourself with our catalog, which is divided into different types of
-            therapies
+            You can familiarize yourself with our wellness offerings, which is divided into
+            different types of therapies
           </p>
         </div>
         <div class="catalog_items" data-aos="fade-up" data-aos-duration="1300">
-          <div class="catalog_item">
-            <img src="../img/pharmacy-accounts/body.svg" alt="body" class="catalog_item_image" />
-            <p class="catalog_item_text">Weight Loss Therapy</p>
-            <a
-              href="https://ironsail.ai/wp-content/uploads/2024/03/Ironsail-Catalog.pdf"
-              target="_blank"
-              class="main_button_accent catalog_item_button"
-              >Details</a
-            >
+          <div class="swiper-button-prev">
+            <img src="../img/testimonials/prev.svg" alt="prev" />
           </div>
-          <div class="catalog_item">
-            <img
-              src="../img/pharmacy-accounts/molekular.svg"
-              alt="molekular"
-              class="catalog_item_image"
-            />
-            <p class="catalog_item_text">Hormone Therapy</p>
-            <a
-              href="https://ironsail.ai/wp-content/uploads/2024/03/Ironsail-Catalog.pdf"
-              target="_blank"
-              class="main_button_accent catalog_item_button"
-              >Details</a
-            >
+          <div class="swiper mySwiper myswiper_ph">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="catalog_item">
+                  <img
+                    src="../img/pharmacy-accounts/body.svg"
+                    alt="body"
+                    class="catalog_item_image"
+                  />
+                  <p class="catalog_item_text">Weight Loss Therapy</p>
+                  <a
+                    href="https://ironsail.ai/wp-content/uploads/2024/03/Ironsail-Catalog.pdf"
+                    target="_blank"
+                    class="main_button_accent catalog_item_button"
+                    >Details</a
+                  >
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="catalog_item">
+                  <img
+                    src="../img/pharmacy-accounts/molekular.svg"
+                    alt="molekular"
+                    class="catalog_item_image"
+                  />
+                  <p class="catalog_item_text">Hormone Therapy</p>
+                  <a
+                    href="https://ironsail.ai/wp-content/uploads/2024/03/Ironsail-Catalog.pdf"
+                    target="_blank"
+                    class="main_button_accent catalog_item_button"
+                    >Details</a
+                  >
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="catalog_item">
+                  <img
+                    src="../img/pharmacy-accounts/gender.svg"
+                    alt="gender"
+                    class="catalog_item_image"
+                  />
+                  <p class="catalog_item_text">Sexual Health Therapy</p>
+                  <a
+                    href="https://ironsail.ai/wp-content/uploads/2024/03/Ironsail-Catalog.pdf"
+                    target="_blank"
+                    class="main_button_accent catalog_item_button"
+                    >Details</a
+                  >
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="catalog_item">
+                  <img
+                    src="../img/pharmacy-accounts/starsvg.svg"
+                    alt="star"
+                    class="catalog_item_image"
+                  />
+                  <p class="catalog_item_text">Peptide Therapy</p>
+                  <a
+                    href="https://ironsail.ai/wp-content/uploads/2024/03/Ironsail-Catalog.pdf"
+                    target="_blank"
+                    class="main_button_accent catalog_item_button"
+                    >Details</a
+                  >
+                </div>
+              </div>
+            </div>
           </div>
-          <div class="catalog_item">
-            <img
-              src="../img/pharmacy-accounts/gender.svg"
-              alt="gender"
-              class="catalog_item_image"
-            />
-            <p class="catalog_item_text">Sexual Health Therapy</p>
-            <a
-              href="https://ironsail.ai/wp-content/uploads/2024/03/Ironsail-Catalog.pdf"
-              target="_blank"
-              class="main_button_accent catalog_item_button"
-              >Details</a
-            >
-          </div>
-          <div class="catalog_item">
-            <img src="../img/pharmacy-accounts/starsvg.svg" alt="star" class="catalog_item_image" />
-            <p class="catalog_item_text">Peptide Therapy</p>
-            <a
-              href="https://ironsail.ai/wp-content/uploads/2024/03/Ironsail-Catalog.pdf"
-              target="_blank"
-              class="main_button_accent catalog_item_button"
-              >Details</a
-            >
+          <div class="swiper-button-next">
+            <img src="../img/testimonials/next.svg" alt="next" />
           </div>
         </div>
       </div>
@@ -428,6 +457,34 @@
       </div>
     </footer>
     <script src="../js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+      var swiper = new Swiper('.mySwiper', {
+        slidesPerView: 4,
+        spaceBetween: 35,
+        loop: true,
+        autoplay: true,
+        navigation: {
+          nextEl: '.swiper-button-next-ph',
+          prevEl: '.swiper-button-prev-ph',
+        },
+        breakpoints: {
+          1200: {
+            slidesPerView: 4,
+            spaceBetween: 35,
+          },
+          // when window width is >= 480px
+          800: {
+            slidesPerView: 2,
+            spaceBetween: 30,
+          },
+          320: {
+            slidesPerView: 1,
+            spaceBetween: 30,
+          },
+        },
+      });
+    </script>
     <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
       integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
