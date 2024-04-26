@@ -424,6 +424,10 @@ body {
   height: 611px;
   top: 320px;
 }
+.im_section_title {
+  font-weight: 600;
+  font-family: 'Gotham-normal';
+}
 @keyframes sun-rise {
   0% {
     bottom: 130px;
