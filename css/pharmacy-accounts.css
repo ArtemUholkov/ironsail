@@ -319,6 +319,7 @@ body {
 .catalog_item_button {
   padding: 12px 32px;
   width: 180px;
+  margin: 0 auto;
 }
 @media (max-width: 1200px) {
   .catalog_items {
