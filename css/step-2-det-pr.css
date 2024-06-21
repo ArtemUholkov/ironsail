@@ -9,8 +9,9 @@
   text-align: center;
   max-width: 600px;
   margin: 0 auto;
-  font-size: 20px;
-  color: #141751;
+  font-size: 24px;
+  line-height: 160%;
+  color: #814099;
   margin-bottom: 20px;
   text-decoration: none;
   transition: all 0.3s;
@@ -34,7 +35,7 @@
 }
 .wrap_links {
   display: flex;
-  flex-direction: row;
+  flex-direction: row-reverse;
   align-items: center;
   justify-content: center;
   gap: 20px;
