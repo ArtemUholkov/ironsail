@@ -32,3 +32,21 @@
   margin: 0 auto;
   display: block;
 }
+.wrap_links {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  max-width: 600px;
+  margin: 0 auto;
+}
+@media (max-width: 600px) {
+  .step-2_thumb_title {
+    font-size: 14px;
+    width: 50%;
+  }
+  .step-2_thumb_link {
+    width: 50%;
+  }
+}
